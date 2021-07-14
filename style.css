@@ -183,3 +183,39 @@ small{
     color: red;
 }
 /* footer end here */
+
+/* Media Queries */
+
+/* css for mobile */
+@media only screen and (max-width:688px) {
+    .players{
+        display: flex;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        
+    }
+    .container{
+        width: 100%;
+    }
+    .top-banner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .highlight{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .footer-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+    }
+    .footer-icon img{
+        width: 100%;
+    }
+
+}
+/* css for mobile */
