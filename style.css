@@ -221,7 +221,7 @@ small{
 /* css for mobile */
 
 /* css for tab */
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
     .players{
         display: flex;
         grid-template-columns: repeat(1,1fr);
@@ -251,4 +251,4 @@ small{
         width: 100%;
     }
 
-}
+} */
