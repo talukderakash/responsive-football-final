@@ -1,0 +1,185 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* header start here here */
+body{
+    font-family: 'Poppins', sans-serif;
+   
+   
+}
+.container{
+    margin: 0;
+
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+    padding-left: 57px;
+    transition: width 3s, height 3s, transform 5s, 1s ease-in;
+         
+}
+
+.banner-image:hover {
+    width: 600px;
+    height: 500px;
+    transform: rotate(120deg);
+}
+.top-banner{
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    background-color: #2D25A0;
+    padding-top: 153px;
+ 
+}
+.banner-text a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 8px 24px;
+    width: 485px;
+    height: 230px;
+}
+.banner-text{
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    padding-right: 57px;
+}
+.banner-text h1{
+   font-weight: 700px;
+   font-size: 64px;
+
+}
+/* header end here */
+/* player card */
+.player{
+    width: 330px;
+    height: 456px;
+    padding: 20px; 
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+.players-list{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.player-name{
+    font-weight: bold;
+    font-size: 24px;
+}
+.players img{
+    width: 300px;
+    height: 256px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 45px;
+}
+.details{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.bottom-banner img{
+    width: 567px;
+    height: 427px;
+}
+.bottom-banner-text{
+    width: 469px;
+    height: 309px;
+}
+.bottom-banner-text a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 8px 24px;
+    margin-top: 24px;
+
+}
+.bottom-banner-text h1{
+    font-size: 48px;
+}
+.highlight-container{
+    margin-top: 165px;
+}
+.highlight{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* player card */
+
+/* extra part */
+.photo-frame{
+    height: 200px;
+    width: 300px;
+    border: solid green 1px ;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+}
+.photo-frame img{
+    width: 100%;
+    border-radius: 10px;
+}
+.des{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    display: none;
+}
+.photo-frame:hover .des{
+    display: block;
+    background-color:rgba(218, 165, 32, 0.40);
+}
+.photo-frame h2{
+  background-color: rgba(0, 0, 0, 0.671);
+  color: blanchedalmond;
+  text-align: center;
+}
+.photo-frame p{
+    color: white;
+}
+section{
+    display: flex;
+}
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* extra part end*/
+/* footer start from here */
+.footer-container{
+    width: 483px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 475px;
+    margin-bottom: 415px;
+    margin-top: 158px;
+}
+.footer-icon img{
+    width: 483px;
+    height: 110px;
+  
+}
+.media a{
+    color: #969BAB;;
+    padding-left: 14px;
+}
+small{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.love {
+    color: red;
+}
+/* footer end here */
